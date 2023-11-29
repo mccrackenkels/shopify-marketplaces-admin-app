@@ -28,15 +28,15 @@ const Overview = ({
   });
 
   return (
-    <OverviewPage title="Mockingbird channel overview">
-      <OverviewPage.Section title="Product status on Mockingbird">
+    <OverviewPage title="Limitless channel overview">
+      <OverviewPage.Section title="Product status on Limitless">
         <ProductStatusSection
           manageAction={{
             content: 'Manage availability',
             external: true,
             url: `https://${domain}/admin/bulk?resource_name=Product&edit=publications.${publicationId}.published_at`,
           }}
-          summary={`${availableProductCount} products available to Mockingbird`}
+          summary={`${availableProductCount} products available to Limitless`}
           productStatuses={[
             {
               badge: {
@@ -52,13 +52,13 @@ const Overview = ({
           ]}
         />
       </OverviewPage.Section>
-      <OverviewPage.Section title="Manage your Mockingbird features">
+      <OverviewPage.Section title="Manage your Limitless features">
         <FeatureListCard
           features={[
             {
-              title: 'Mockingbird Marketplace',
+              title: 'Limitless Marketplace',
               description:
-                'Customers can discover your brand and purchase products directly on the Mockingbird Marketplace.',
+                'Customers can discover your brand and purchase products directly on the Limitless Marketplace.',
               badge: {children: 'Active', status: 'success'},
             },
           ]}

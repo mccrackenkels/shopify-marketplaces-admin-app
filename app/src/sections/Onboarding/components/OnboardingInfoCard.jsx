@@ -39,7 +39,7 @@ const OnboardingInfoCard = ({state}) => {
             content: (
               <p>
                 Buyers will be able to purchase your products directly from the
-                Mockingbird Marketplace. They will be redirected to your online
+                Limitless Marketplace. They will be redirected to your online
                 store checkout to complete their purchase.
               </p>
             ),

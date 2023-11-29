@@ -43,13 +43,13 @@ const Settings = () => {
     <SettingsPage title="Settings">
       <SettingsPage.Section
         title="Terms and conditions"
-        description="You can view the Mockingbird Marketplace terms and conditions here at any time."
+        description="You can view the Limitless Marketplace terms and conditions here at any time."
       >
         <Card sectioned>
           <p>
             You have agreed to the{' '}
             <Link url="https://www.shopify.com/legal/terms" external>
-              Mockingbird Marketplace Terms of Service
+              Limitless Marketplace Terms of Service
             </Link>
             .
           </p>

@@ -56,7 +56,7 @@ const Onboarding = () => {
 
   return (
     <OnboardingPage
-      title="Setup Mockingbird Marketplace"
+      title="Setup Limitless Marketplace"
       breadcrumb={{
         content: 'Back',
         url: '/',
